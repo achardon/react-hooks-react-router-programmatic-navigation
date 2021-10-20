@@ -45,3 +45,36 @@ function Login({ setIsLoggedIn }) {
 }
 
 export default Login;
+
+//from lecture 10/20/21
+// //POST
+// fetch(`/cats`, {
+//   method: 'POST',
+//   headers: {
+//     'Content-Type': 'application/json'
+//   },
+//   body: JSON.stringify({name:'rose', age:10, id:2})
+// })
+// .then(r => r.json())
+// .then(data => console.log(data))
+
+// //PATCH
+// fetch(`/cats/{data.id}`, {
+//   method: 'PATCH',
+//   headers: {
+//     'Content-Type': 'application/json'
+//   },
+//   body: JSON.stringify({...data, age:11})
+// })
+// .then(r => r.json())
+// .then(data => console.log(data))
+
+// //DELETE
+// fetch(`/cats/{data.id}`, {
+//   method: 'DELETE',
+//   headers: {
+//     'Content-Type': 'application/json'
+//   }
+// })
+// .then(r => r.json())
+// .then(data => console.log(data))
